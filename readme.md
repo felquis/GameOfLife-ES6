@@ -11,12 +11,14 @@ npm install
 
 ### Run
 If the future is finally here:
+
 *ECMAScript 6 is fully supported now.*
 ```shell
 node index.js
 ```
 
 If there are still no flying cars and hoverboards:
+
 *Use [6to5](http://6to5.org) runner.*
 ```shell
 npm run main
