@@ -1,4 +1,4 @@
-# GameOfLife-ES6
+# GameOfLife-ES6 [![Build Status](https://travis-ci.org/VFK/GameOfLife-ES6.svg)](https://travis-ci.org/VFK/GameOfLife-ES6)
 > [Conway's Game of Life](http://en.wikipedia.org/wiki/Conway's_Game_of_Life) written in ECMAScript 6.
 
 
