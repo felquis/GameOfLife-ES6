@@ -1,0 +1,26 @@
+{
+  "name": "GameOfLife-ES6",
+  "version": "1.0.0",
+  "description": "Conway's Game of Life written in ECMAScript 6",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --compilers js:6to5/register --reporter spec",
+    "main": "6to5-node index.js"
+  },
+  "author": "Vladimir Kucherenko <kvsoftware@gmail.com>",
+  "engines": {
+    "node": ">= 0.9"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/VFK/GameOfLife-ES6.git"
+  },
+  "dependencies": {
+    "chunk": "0.0.2"
+  },
+  "devDependencies": {
+    "6to5": "^3.5.3",
+    "mocha": "^2.1.0"
+  },
+  "license": "MIT"
+}
