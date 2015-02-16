@@ -14,7 +14,7 @@ If the future is finally here (if ECMAScript 6 is fully supported now):
 node index.js
 ```
 
-If there are still no flying cars and hover boards (use [6to5](http://6to5.org) runner):
+If there are still no flying cars and hover boards (use [Babel](http://babeljs.io) runner):
 ```shell
 npm run main
 ```

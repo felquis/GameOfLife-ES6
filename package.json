@@ -4,8 +4,8 @@
   "description": "Conway's Game of Life written in ECMAScript 6",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --compilers js:6to5/register --reporter spec",
-    "main": "6to5-node index.js"
+    "test": "mocha --compilers js:babel/register --reporter spec",
+    "main": "babel-node index.js"
   },
   "author": "Vladimir Kucherenko <kvsoftware@gmail.com>",
   "engines": {
@@ -19,7 +19,7 @@
     "chunk": "0.0.2"
   },
   "devDependencies": {
-    "6to5": "^3.5.3",
+    "babel": "^4.0.1",
     "mocha": "^2.1.0"
   },
   "license": "MIT"
